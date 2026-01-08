@@ -15,7 +15,25 @@ Clone the repository using the command below:
 
 ```bash
 git clone https://github.com/jayanth3495/ADAS-LowLight-Vision.git
-
+```
 Navigate to the project directory:
+```bash
 cd ADAS-LowLight-Vision
 cd Object_Detection_and_Distance_Estimation
+```
+## ⚙️ Installing Prerequisites
+Ensure Python is installed, then install the required dependencies:
+```bash
+pip install numpy opencv-python ultralytics
+```
+## ▶️ Running the Code
+You can execute the scripts based on the desired output format.
+
+🔹Frame-by-frame Output
+ ```bash
+ python frames.py
+```
+🔹Video Output
+```bash
+python video.py
+```
